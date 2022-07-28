@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #e6e6e6;
     margin: 0;
     font-family: 'Antonio';
 }
@@ -18,10 +18,9 @@ body {
 }
 
 .circulos [id] {
-    color: white;
     position: absolute;
     border-radius: 100%;
-    background-color: #90ee90;
+    background-color: #8cacb9;
 }
 
 .reloj {
@@ -37,8 +36,8 @@ body {
     width: 55vh;
     border-radius: 100%;
     text-align: center;
-    color: white;
-    background-color: black !important;
+    color: black;
+    background-color: #e6e6e6 !important;
 }
 #años { height: 90vh; width: 90vh; }
 #meses {height: 85vh;width: 85vh;}

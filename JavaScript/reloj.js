@@ -1,5 +1,6 @@
 //#region Principal
 let años, meses, dias, horas, minutos, segundos, milisegundos, tiempo;
+let colorPrincipal = "#004664", colorSecundario = "#8cacb9";
 
 window.onload = () => {
     años = document.querySelector("#años");
@@ -48,8 +49,8 @@ function actualizarTamaños(datos) {
 function tamaño(elemento, porcentaje, degradado) {
     let angulo = porcentaje * degradado;
     elemento.style.background = `conic-gradient(
-        #008000 ${angulo}deg,
-        #90ee90 ${angulo}deg
+        ${colorPrincipal + " " + angulo}deg,
+        ${colorSecundario + " " + angulo}deg
     )`;
 }
 
